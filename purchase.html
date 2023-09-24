@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title>CHocs</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	
+	<!-- bagian header template -->
+	<header>
+		<h1 class="title">CHocs</h1>
+		<p class="desc">Authentic Chocolate</p>
+		
+	</header>
+	<!-- akhir bagian header template -->
+	
+	<div class="wrap">
+		<!-- bagian menu		 -->
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="product.html">Product</a>
+				</li>
+				<li>
+					<a href="purchase.html">Purchase</a>
+				</li>
+                <li>
+					<a href="aboutus.html">About Us</a>
+				</li>
+                <li>
+					<a href="location.html">Location</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- akhir bagian menu -->
+ 
+		
+ 
+		<!-- bagian konten Blog -->
+
+		<div class="container">
+			<hr>
+            <div class="conteudo">
+            <form id="purchase" class="form">
+                <h1>Order Page</h1>
+                <div class="form-field">
+                    <label for="username">Name</label>
+                    <input type="text" name="name" id="name" autocomplete="off">
+                    <small></small>
+                </div>
+				<div class="form-field">
+                    <label for="">Phone Number</label>
+                    <input type="text" name="phone_number" id="phone_number" autocomplete="off">
+                    <small></small>
+                </div>
+				<div class="form-field">
+                    <label for="">Quantity</label>
+                    <input type="number" name="qty" id="qty" autocomplete="off">
+                    <small></small>
+                </div>
+				<div class="form-field">
+                    <label for="">Product Choice</label>
+                  <select name="product" id="product">
+					  <option value="">--Pralines--</option>
+					  <option value="pralines">Metalbox Gold Pralines</option>
+					  <option value="pralines">Valentine Assorted Pralines</option>
+					  <option value="pralines">Snowballs Assorted Pralines</option>
+					  <option value="">--Dark Chocolate--</option>
+					  <option value="">Dark Chocolate Bar Cherry</option>
+					  <option value="">Dark Chocolate Bar</option>
+					  <option value="">Dark Chocolate Cocoa Nibs</option>
+					  <option value="">--Truffle Chocolate--</option>
+					  <option value="">Original Truffle Chocolate</option>
+					  <option value="">Coffee Truffle Chocolate</option>
+					  <option value="">Orange Truffle Chocolate</option>
+
+				  </select>
+                    <small></small>
+                </div>
+				<div class="form-field">
+                    <label for="username">Address</label>
+                    <textarea name="address" id="address"></textarea>
+                    <small></small>
+                </div>
+                
+    
+                <div class="form-field">
+                    <input type="submit" value="Order Now">
+                </div>
+            </form>
+        </div>
+		</div>
+		<!-- akhir bagian konten Blog -->
+		<div class="fixed-footer">
+			<div class="container">Copyright &copy; 2022 Clarissa Kitti & Sekar Ajeng Suprobo Mukti</div>        
+		</div>
+	</div>
+	<script src="./javascript/app.js"></script>
+</body>
+</html>
